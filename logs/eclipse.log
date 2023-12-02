@@ -1,0 +1,734 @@
+16:24:17.116 [main] INFO  api.test.UserTests - ***** Creating user *******
+16:24:20.289 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:20.324 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:21.544 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:21.548 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:21.548 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:21.550 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:21.553 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:21.554 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /v2/user HTTP/1.1
+16:24:21.555 [main] DEBUG org.apache.http.wire -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+16:24:21.558 [main] DEBUG org.apache.http.wire -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+16:24:21.559 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+16:24:21.560 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 182[\r][\n]"
+16:24:21.561 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:21.561 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:21.562 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:21.562 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:21.562 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:21.563 [main] DEBUG org.apache.http.headers - >> POST /v2/user HTTP/1.1
+16:24:21.563 [main] DEBUG org.apache.http.headers - >> Accept: application/json, application/javascript, text/javascript, text/json
+16:24:21.563 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+16:24:21.563 [main] DEBUG org.apache.http.headers - >> Content-Length: 182
+16:24:21.563 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:21.564 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:21.564 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:21.564 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:21.565 [main] DEBUG org.apache.http.wire -  >> "{"id":95685867,"username":"tod.kuvalis","firstName":"Epifania","lastName":"Lockman","email":"mia.hirthe@gmail.com","password":"jjt067r7qz0ic","phone":"(284) 908-7218","userStatus":0}"
+16:24:21.781 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:21.786 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:21 GMT[\r][\n]"
+16:24:21.787 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:21.788 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:21.789 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:21.790 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:21.793 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:21.795 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:21.795 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:21.796 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:21.800 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:21.801 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:21.801 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:21 GMT
+16:24:21.802 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:21.803 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:21.803 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:21.804 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:21.805 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:21.805 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:21.806 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:21.825 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:21.837 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:21.838 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:21.913 [main] DEBUG org.apache.http.wire -  << "32[\r][\n]"
+16:24:21.913 [main] DEBUG org.apache.http.wire -  << "{"code":200,"type":"unknown","message":"95685867"}"
+16:24:21.915 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:21.916 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+16:24:21.917 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:21.917 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@259c6ab8
+16:24:21.918 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+16:24:21.980 [main] INFO  api.test.UserTests - ******** User is created ********
+16:24:22.025 [main] INFO  api.test.UserTests - ***** Reading user *******
+16:24:22.084 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:22.085 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:22.962 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:22.964 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:22.964 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:22.965 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:22.966 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:22.966 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /v2/user/tod.kuvalis HTTP/1.1
+16:24:22.967 [main] DEBUG org.apache.http.wire -  >> "GET /v2/user/tod.kuvalis HTTP/1.1[\r][\n]"
+16:24:22.968 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+16:24:22.968 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:22.969 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:22.970 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:22.970 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:22.971 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:22.972 [main] DEBUG org.apache.http.headers - >> GET /v2/user/tod.kuvalis HTTP/1.1
+16:24:22.972 [main] DEBUG org.apache.http.headers - >> Accept: */*
+16:24:22.973 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:22.973 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:22.974 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:22.977 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:23.199 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:23.199 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:23 GMT[\r][\n]"
+16:24:23.200 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:23.201 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:23.201 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:23.202 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:23.202 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:23.203 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:23.203 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:23.204 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:23.204 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:23.205 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:23.206 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:23 GMT
+16:24:23.206 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:23.206 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:23.207 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:23.208 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:23.210 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:23.211 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:23.212 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:23.213 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:23.214 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:23.214 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:23.223 [main] DEBUG org.apache.http.wire -  << "b6[\r][\n]"
+16:24:23.224 [main] DEBUG org.apache.http.wire -  << "{"id":95685867,"username":"tod.kuvalis","firstName":"Epifania","lastName":"Lockman","email":"mia.hirthe@gmail.com","password":"jjt067r7qz0ic","phone":"(284) 908-7218","userStatus":0}"
+16:24:23.227 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:23.230 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+16:24:23.230 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:23.230 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@24563809
+16:24:23.231 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+16:24:23.235 [main] INFO  api.test.UserTests - ***** Read user *******
+16:24:23.273 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:23.273 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:24.153 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:24.154 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:24.155 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:24.155 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:24.156 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:24.156 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /v2/user/kalyn.parker HTTP/1.1
+16:24:24.157 [main] DEBUG org.apache.http.wire -  >> "PUT /v2/user/kalyn.parker HTTP/1.1[\r][\n]"
+16:24:24.158 [main] DEBUG org.apache.http.wire -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+16:24:24.160 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+16:24:24.161 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 183[\r][\n]"
+16:24:24.161 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:24.162 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:24.163 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:24.164 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:24.165 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:24.166 [main] DEBUG org.apache.http.headers - >> PUT /v2/user/kalyn.parker HTTP/1.1
+16:24:24.167 [main] DEBUG org.apache.http.headers - >> Accept: application/json, application/javascript, text/javascript, text/json
+16:24:24.167 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+16:24:24.168 [main] DEBUG org.apache.http.headers - >> Content-Length: 183
+16:24:24.169 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:24.170 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:24.171 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:24.172 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:24.173 [main] DEBUG org.apache.http.wire -  >> "{"id":95685867,"username":"kalyn.parker","firstName":"Reynalda","lastName":"Ritchie","email":"mia.hirthe@gmail.com","password":"jjt067r7qz0ic","phone":"(284) 908-7218","userStatus":0}"
+16:24:24.387 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:24.388 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:24 GMT[\r][\n]"
+16:24:24.388 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:24.389 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:24.389 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:24.389 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:24.390 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:24.391 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:24.391 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:24.391 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:24.392 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:24.393 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:24.393 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:24 GMT
+16:24:24.394 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:24.394 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:24.394 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:24.395 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:24.397 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:24.398 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:24.398 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:24.399 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:24.400 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:24.400 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:24.403 [main] DEBUG org.apache.http.wire -  << "32[\r][\n]"
+16:24:24.404 [main] DEBUG org.apache.http.wire -  << "{"code":200,"type":"unknown","message":"95685867"}"
+16:24:24.406 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:24.408 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+16:24:24.411 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:24.411 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3922b297
+16:24:24.412 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+16:24:24.452 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:24.453 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:25.300 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:25.301 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:25.302 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:25.303 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:25.303 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:25.304 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /v2/user/kalyn.parker HTTP/1.1
+16:24:25.305 [main] DEBUG org.apache.http.wire -  >> "GET /v2/user/kalyn.parker HTTP/1.1[\r][\n]"
+16:24:25.307 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+16:24:25.307 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:25.308 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:25.310 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:25.311 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:25.313 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:25.314 [main] DEBUG org.apache.http.headers - >> GET /v2/user/kalyn.parker HTTP/1.1
+16:24:25.315 [main] DEBUG org.apache.http.headers - >> Accept: */*
+16:24:25.315 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:25.316 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:25.317 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:25.317 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:25.533 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:25.534 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:25 GMT[\r][\n]"
+16:24:25.535 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:25.536 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:25.536 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:25.537 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:25.537 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:25.538 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:25.539 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:25.539 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:25.540 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:25.541 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:25.541 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:25 GMT
+16:24:25.542 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:25.545 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:25.546 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:25.547 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:25.547 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:25.547 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:25.548 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:25.549 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:25.550 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:25.551 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:25.553 [main] DEBUG org.apache.http.wire -  << "b7[\r][\n]"
+16:24:25.554 [main] DEBUG org.apache.http.wire -  << "{"id":95685867,"username":"kalyn.parker","firstName":"Reynalda","lastName":"Ritchie","email":"mia.hirthe@gmail.com","password":"jjt067r7qz0ic","phone":"(284) 908-7218","userStatus":0}"
+16:24:25.554 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:25.555 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+16:24:25.555 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:25.555 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@21bd6fd1
+16:24:25.556 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+16:24:25.695 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52601<->44.219.163.6:443 closed
+16:24:25.699 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52603<->44.219.163.6:443 closed
+16:24:25.701 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52602<->44.219.163.6:443 closed
+16:24:25.866 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:25.873 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:25.879 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:26.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:26.784 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:26.789 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:26.871 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:26.879 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:26.886 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.037 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.044 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.051 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.105 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.117 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.124 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.171 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.180 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.182 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.233 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.241 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.245 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.300 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.306 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.312 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.366 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.373 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.380 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.426 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.435 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.436 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.520 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.529 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.536 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.622 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.628 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.634 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.674 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.684 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.687 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.783 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.796 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.799 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.864 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.868 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.872 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.919 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.931 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:27.937 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:27.995 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:27.997 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.004 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.045 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.048 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.050 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.097 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.103 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.104 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.139 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.141 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.148 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.186 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.191 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.193 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.320 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.346 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.353 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.397 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.402 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.404 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.446 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.450 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.456 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.507 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.524 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.532 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.620 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.658 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.709 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.747 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.748 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.755 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.803 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.812 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.813 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.863 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.867 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.868 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:28.913 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:28.915 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:28.917 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:29.075 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:29.081 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:29.960 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:29.961 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:29.962 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:29.962 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:29.962 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:29.963 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /v2/user HTTP/1.1
+16:24:29.964 [main] DEBUG org.apache.http.wire -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+16:24:29.965 [main] DEBUG org.apache.http.wire -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+16:24:29.965 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+16:24:29.966 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 147[\r][\n]"
+16:24:29.968 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:29.968 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:29.969 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:29.970 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:29.971 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:29.971 [main] DEBUG org.apache.http.headers - >> POST /v2/user HTTP/1.1
+16:24:29.971 [main] DEBUG org.apache.http.headers - >> Accept: application/json, application/javascript, text/javascript, text/json
+16:24:29.972 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+16:24:29.972 [main] DEBUG org.apache.http.headers - >> Content-Length: 147
+16:24:29.972 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:29.973 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:29.973 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:29.973 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:29.974 [main] DEBUG org.apache.http.wire -  >> "{"id":1111,"username":"testuser1","firstName":"ira","lastName":"joshi","email":"a@gmail.com","password":"1234","phone":"1234567890","userStatus":0}"
+16:24:30.192 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:30.192 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:30 GMT[\r][\n]"
+16:24:30.193 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:30.193 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:30.193 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:30.195 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:30.195 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:30.195 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:30.195 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:30.195 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:30.196 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:30.196 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:30.196 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:30 GMT
+16:24:30.197 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:30.197 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:30.197 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:30.198 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:30.198 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:30.198 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:30.199 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:30.199 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:30.200 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:30.201 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:30.238 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:30.239 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:31.096 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:31.096 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:31.097 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:31.097 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:31.097 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:31.097 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /v2/user HTTP/1.1
+16:24:31.097 [main] DEBUG org.apache.http.wire -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+16:24:31.099 [main] DEBUG org.apache.http.wire -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+16:24:31.099 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+16:24:31.100 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 145[\r][\n]"
+16:24:31.101 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:31.105 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:31.106 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:31.106 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:31.106 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:31.108 [main] DEBUG org.apache.http.headers - >> POST /v2/user HTTP/1.1
+16:24:31.109 [main] DEBUG org.apache.http.headers - >> Accept: application/json, application/javascript, text/javascript, text/json
+16:24:31.109 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+16:24:31.109 [main] DEBUG org.apache.http.headers - >> Content-Length: 145
+16:24:31.109 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:31.111 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:31.117 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:31.130 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:31.131 [main] DEBUG org.apache.http.wire -  >> "{"id":1112,"username":"testuser2","firstName":"ish","lastName":"Kom","email":"b@gmail.com","password":"3456","phone":"2345678910","userStatus":0}"
+16:24:31.342 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:31.343 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:31 GMT[\r][\n]"
+16:24:31.343 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:31.343 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:31.343 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:31.343 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:31.343 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:31.344 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:31.344 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:31.344 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:31.344 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:31.344 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:31.344 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:31 GMT
+16:24:31.344 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:31.345 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:31.345 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:31.345 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:31.345 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:31.346 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:31.346 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:31.346 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:31.347 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:31.348 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:31.373 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:31.374 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:32.236 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:32.236 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:32.237 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:32.237 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:32.237 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:32.237 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /v2/user HTTP/1.1
+16:24:32.238 [main] DEBUG org.apache.http.wire -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+16:24:32.238 [main] DEBUG org.apache.http.wire -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+16:24:32.238 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+16:24:32.238 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 146[\r][\n]"
+16:24:32.239 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:32.239 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:32.239 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:32.239 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:32.240 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:32.240 [main] DEBUG org.apache.http.headers - >> POST /v2/user HTTP/1.1
+16:24:32.240 [main] DEBUG org.apache.http.headers - >> Accept: application/json, application/javascript, text/javascript, text/json
+16:24:32.240 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+16:24:32.241 [main] DEBUG org.apache.http.headers - >> Content-Length: 146
+16:24:32.241 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:32.241 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:32.241 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:32.241 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:32.242 [main] DEBUG org.apache.http.wire -  >> "{"id":1113,"username":"testuser3","firstName":"om","lastName":"hande","email":"c@gmail.com","password":"7890","phone":"3645789100","userStatus":0}"
+16:24:32.455 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:32.455 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:32 GMT[\r][\n]"
+16:24:32.455 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:32.456 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:32.456 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:32.456 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:32 GMT
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:32.457 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:32.457 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:32.457 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:32.458 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:32.494 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:32.494 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:33.371 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:33.371 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:33.371 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:33.371 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:33.372 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:33.372 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /v2/user HTTP/1.1
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 148[\r][\n]"
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:33.372 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:33.373 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:33.373 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> POST /v2/user HTTP/1.1
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> Accept: application/json, application/javascript, text/javascript, text/json
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> Content-Length: 148
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:33.373 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:33.373 [main] DEBUG org.apache.http.wire -  >> "{"id":1114,"username":"testuser4","firstName":"kaya","lastName":"mande","email":"d@gmail.com","password":"1112","phone":"4567891230","userStatus":0}"
+16:24:33.587 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:33.587 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:33 GMT[\r][\n]"
+16:24:33.587 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:33.587 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:33.588 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:33.588 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:33.588 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:33.589 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:33.589 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:33.589 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:33.589 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:33.589 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:33.589 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:33 GMT
+16:24:33.590 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:33.590 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:33.590 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:33.593 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:33.593 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:33.593 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:33.594 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:33.594 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:33.594 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:33.594 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:33.621 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:33.622 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:33.623 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:33.662 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:33.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:33.676 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:33.703 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:33.705 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:33.707 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:33.742 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:33.743 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:33.745 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:33.772 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:24:33.777 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:24:33.778 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:24:33.836 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:33.837 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:34.699 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:34.699 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:34.699 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:34.700 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:34.700 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:34.700 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /v2/user/testuser1 HTTP/1.1
+16:24:34.701 [main] DEBUG org.apache.http.wire -  >> "GET /v2/user/testuser1 HTTP/1.1[\r][\n]"
+16:24:34.701 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+16:24:34.701 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:34.702 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:34.702 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:34.702 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:34.702 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:34.702 [main] DEBUG org.apache.http.headers - >> GET /v2/user/testuser1 HTTP/1.1
+16:24:34.703 [main] DEBUG org.apache.http.headers - >> Accept: */*
+16:24:34.703 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:34.703 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:34.703 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:34.703 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:34.916 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:34.916 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:35 GMT[\r][\n]"
+16:24:34.916 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:34.917 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:34.917 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:34.917 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:34.917 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:34.918 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:34.918 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:34.918 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:34.919 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:34.919 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:34.919 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:35 GMT
+16:24:34.919 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:34.919 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:34.920 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:34.920 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:34.920 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:34.921 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:34.921 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:34.921 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:34.922 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:34.922 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:34.964 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:34.964 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:35.828 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:35.828 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:35.828 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:35.829 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:35.829 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:35.829 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /v2/user/testuser2 HTTP/1.1
+16:24:35.829 [main] DEBUG org.apache.http.wire -  >> "GET /v2/user/testuser2 HTTP/1.1[\r][\n]"
+16:24:35.830 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+16:24:35.831 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:35.831 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:35.832 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:35.832 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:35.832 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:35.833 [main] DEBUG org.apache.http.headers - >> GET /v2/user/testuser2 HTTP/1.1
+16:24:35.833 [main] DEBUG org.apache.http.headers - >> Accept: */*
+16:24:35.833 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:35.833 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:35.833 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:35.834 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:36.046 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:36.046 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:36 GMT[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:36.047 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:36.048 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:36.048 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:36 GMT
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:36.048 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:36.049 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:36.049 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:36.049 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:36.076 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:36.077 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:36.940 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:36.941 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:36.941 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:36.941 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:36.941 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:36.942 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /v2/user/testuser3 HTTP/1.1
+16:24:36.942 [main] DEBUG org.apache.http.wire -  >> "GET /v2/user/testuser3 HTTP/1.1[\r][\n]"
+16:24:36.942 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+16:24:36.942 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:36.943 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:36.943 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:36.943 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:36.943 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:36.943 [main] DEBUG org.apache.http.headers - >> GET /v2/user/testuser3 HTTP/1.1
+16:24:36.944 [main] DEBUG org.apache.http.headers - >> Accept: */*
+16:24:36.944 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:36.944 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:36.944 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:36.944 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:37.159 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:37.159 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:37 GMT[\r][\n]"
+16:24:37.159 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:37.160 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:37.160 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:37.160 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:37.160 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:37.161 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:37.161 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:37.161 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:37.161 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:37.161 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:37 GMT
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:37.162 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:37.163 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:37.163 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:37.163 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:37.201 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://petstore.swagger.io:443
+16:24:37.202 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to petstore.swagger.io:443
+16:24:38.077 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+16:24:38.077 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:24:38.077 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+16:24:38.078 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+16:24:38.080 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+16:24:38.081 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /v2/user/testuser4 HTTP/1.1
+16:24:38.081 [main] DEBUG org.apache.http.wire -  >> "GET /v2/user/testuser4 HTTP/1.1[\r][\n]"
+16:24:38.081 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+16:24:38.082 [main] DEBUG org.apache.http.wire -  >> "Host: petstore.swagger.io[\r][\n]"
+16:24:38.082 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+16:24:38.082 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)[\r][\n]"
+16:24:38.082 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:24:38.083 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+16:24:38.083 [main] DEBUG org.apache.http.headers - >> GET /v2/user/testuser4 HTTP/1.1
+16:24:38.083 [main] DEBUG org.apache.http.headers - >> Accept: */*
+16:24:38.083 [main] DEBUG org.apache.http.headers - >> Host: petstore.swagger.io
+16:24:38.084 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+16:24:38.084 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.7)
+16:24:38.084 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+16:24:38.296 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Date: Wed, 29 Nov 2023 10:54:38 GMT[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+16:24:38.297 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+16:24:38.297 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Date: Wed, 29 Nov 2023 10:54:38 GMT
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Content-Type: application/json
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+16:24:38.297 [main] DEBUG org.apache.http.headers - << Server: Jetty(9.2.9.v20150224)
+16:24:38.298 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+16:24:38.298 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json
+16:24:38.298 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:24:38.386 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52610<->44.219.163.6:443 closed
+16:24:38.387 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52611<->44.219.163.6:443 closed
+16:24:38.387 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52604<->44.219.163.6:443 closed
+16:24:38.389 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52605<->44.219.163.6:443 closed
+16:24:38.390 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52606<->44.219.163.6:443 closed
+16:24:38.391 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52607<->44.219.163.6:443 closed
+16:24:38.392 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52608<->44.219.163.6:443 closed
+16:24:38.393 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52609<->44.219.163.6:443 closed
+16:39:07.549 [main] INFO  api.test.UserTests - ***** Creating user *******
+16:39:11.869 [main] INFO  api.test.UserTests - ******** User is created ********
+16:39:11.900 [main] INFO  api.test.UserTests - ***** Reading user *******
+16:39:13.054 [main] INFO  api.test.UserTests - ***** Read user *******
+17:34:28.491 [main] INFO  api.test.UserTests2 - ***** Creating user *******
+17:34:35.731 [main] INFO  api.test.UserTests2 - ******** User is created ********
+17:34:35.778 [main] INFO  api.test.UserTests2 - ***** Reading user *******
+17:34:36.932 [main] INFO  api.test.UserTests2 - ***** Read user *******
+17:46:45.024 [main] INFO  api.test.UserTests2 - ***** Creating user *******
+17:46:50.915 [main] INFO  api.test.UserTests2 - ******** User is created ********
+17:46:50.962 [main] INFO  api.test.UserTests2 - ***** Reading user *******
+17:46:52.132 [main] INFO  api.test.UserTests2 - ***** Read user *******
+17:58:13.561 [main] INFO  api.test.UserTests - ***** Creating user *******
+17:58:18.231 [main] INFO  api.test.UserTests - ******** User is created ********
+17:58:18.264 [main] INFO  api.test.UserTests - ***** Reading user *******
+17:58:19.440 [main] INFO  api.test.UserTests - ***** Read user *******
+14:52:48.622 [main] INFO  api.test.UserTests - ***** Creating user *******
+14:52:53.207 [main] INFO  api.test.UserTests - ******** User is created ********
+14:52:53.218 [main] INFO  api.test.UserTests - ***** Reading user *******
+14:52:54.425 [main] INFO  api.test.UserTests - ***** Read user *******
+14:55:52.228 [main] INFO  api.test.UserTests - ***** Creating user *******
+14:55:56.962 [main] INFO  api.test.UserTests - ******** User is created ********
+14:55:56.999 [main] INFO  api.test.UserTests - ***** Reading user *******
+14:55:58.189 [main] INFO  api.test.UserTests - ***** Read user *******
+17:35:27.030 [main] INFO  api.test.UserTests - ***** Creating user *******
+17:35:28.318 [main] INFO  api.test.UserTests - ******** User is created ********
+17:35:28.321 [main] INFO  api.test.UserTests - ***** Reading user *******
+17:35:29.448 [main] INFO  api.test.UserTests - ***** Read user *******
